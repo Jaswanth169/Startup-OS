@@ -16,8 +16,8 @@ MODEL_NAME = "llama3.2:latest"
 MAX_RETRIES = 3
 RETRY_DELAY = 2
 TEXT_WRAP_WIDTH = 80
-OPENAI_BASE_URL = "https://integrate.api.nvidia.com/v1"  # Or your OpenAI base URL if not using NVIDIA
-OPENAI_API_KEY = "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" # Replace with your actual key
+OPENAI_BASE_URL = "https://integrate.api.nvidia.com"  # Or your OpenAI base URL if not using NVIDIA
+OPENAI_API_KEY = "nv"
 OPENAI_MODEL = "nvidia/llama-3.1-nemotron-70b-instruct" # or a good general purpose model
 # --- Error Handling ---
 class OllamaCommunicationError(Exception):
